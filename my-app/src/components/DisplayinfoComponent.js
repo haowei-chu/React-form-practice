@@ -58,7 +58,7 @@ const DisplayForm = (props)=>
                     </button>
              </Col>
             </Row>
-            <div className="container">
+            <div className="container DisplayForm">
                 <div className="row">
                     <div className="col-md-12">
                         <table className="table">

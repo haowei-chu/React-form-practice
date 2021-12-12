@@ -25,7 +25,7 @@ function InfoForm (props)
             >
             <form onSubmit={handleFormSubmit}>
                 <Row className="form-group">
-                    <Label htmlFor="description" md={5}>
+                    <Label htmlFor="description" md={3}>
                         Description:
                     </Label>
                     <Col md={2}>
@@ -39,7 +39,7 @@ function InfoForm (props)
                     </Col>
                 </Row>
                 <Row className="form-group">
-                    <Label htmlFor="category" md={5}>
+                    <Label htmlFor="category" md={3}>
                         Category:
                     </Label>
                     <Col md={2}>
@@ -59,7 +59,7 @@ function InfoForm (props)
                     </Col>
                 </Row>
                 <Row className="form-group">
-                    <Label htmlFor="content" md={5}>
+                    <Label htmlFor="content" md={3}>
                         Content:
                     </Label>
                     <Col md={2}>

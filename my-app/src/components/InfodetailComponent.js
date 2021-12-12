@@ -37,29 +37,12 @@ const InfoDetail = (props) =>
     {
         return (
             <div>
-                {/*<Row>*/}
-                {/*    <Col className="col-5 col-sm-6">*/}
                 <h4 ><b>Description:</b>{props.detail.des}</h4>
-                {/*    </Col>*/}
-                {/*</Row>*/}
-                {/*<Row>*/}
-                {/*    <Col md={2}>*/}
                 <h4><b>Category:</b><CategoryString cat = {props.detail.cat}/></h4>
-                {/*    </Col>*/}
-                {/*</Row>*/}
-                {/*<Row>*/}
-                {/*    <Col md={2}>*/}
-                 <h4><b>Content:</b>{props.detail.content}</h4>
-                {/*    </Col>*/}
-                {/*</Row>*/}
-                {/*<Row>*/}
-                {/*    <Col md={1}>*/}
-                        <NavLink className="btn btn-primary" to='/todo'>
-                            <span className="fa fa-lg"></span>back
-                        </NavLink>
-                {/*    </Col>*/}
-                {/*</Row>*/}
-
+                <h4><b>Content:</b>{props.detail.content}</h4>
+                <NavLink className="btn btn-primary" to='/todo'>
+                    <span className="fa fa-lg"></span>back
+                </NavLink>
             </div>
         )
     }

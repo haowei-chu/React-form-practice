@@ -13,7 +13,7 @@ class Info extends Component
         return(
             <div className='mt-5'>
                 <Row>
-                    <Col>
+                    <Col md={5}>
                         <InfoForm
                             handleSubmit = {this.props.handleSubmit}
                         />

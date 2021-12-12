@@ -1,4 +1,7 @@
 .App {
+  text-align: left;
+}
+.DisplayForm{
   text-align: center;
 }
 
@@ -39,4 +42,21 @@
 
 .navbar-dark {
   background-color: #c1d6f3;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+select:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
 }
