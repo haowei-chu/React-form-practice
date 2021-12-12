@@ -4,7 +4,7 @@ function About (props)
 {
     return(
         <React.Fragment>
-            <h1>hello world</h1>
+            <label >about works!</label>
         </React.Fragment>
     )
 }
